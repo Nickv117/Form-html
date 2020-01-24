@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(75, 143, 204);
+}
+
+::placeholder {
+  color: black;
+  font-style: italic;
+}
+form {
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  border: hidden;
+  grid-column: auto;
+  margin-left: 20px;
+}
+
+#BIOGRAPHY,
+#AFFILIATIONS,
+#COMMENTS {
+  height: 100px;
+}
+
+input,
+select,
+textarea {
+  background-color: transparent;
+  border-color: solid white 3px;
+  width: 200px;
+}
+
+.col1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.col2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.col3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+label {
+  margin: 40px 0 10px;
+  color: white;
+  text-size-adjust: 10px;
+}
